@@ -20,14 +20,20 @@ header {
     color: #333;
     font-size: 2rem;
     padding: 20px;
-    background-image: url('./assets/hero.jpg');
+    background-image: url('./assets/portbg.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
 }
+
 .about-icons {
     font-size: 4rem;
 }
+
+.about-icons:hover {
+    color: goldenrod;
+}
+
 nav {
     background-color: #cecece;
     padding: 10px;
@@ -108,6 +114,7 @@ ul {
 .project-details a:hover {
     color: goldenrod;
 }
+
 .technologies {
     font-size: 2rem;
 }
