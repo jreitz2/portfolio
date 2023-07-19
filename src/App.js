@@ -26,7 +26,7 @@ function App() {
       <main>
         <Section id="about" title="About Me">
           <p>
-          Hi, I'm Josh Reitz, a passionate web developer. I specialize in front-end development and enjoy learning, creating, and problem solving.
+          Hi! I'm Josh Reitz, a passionate web developer. I specialize in front-end development and enjoy learning, creating, and problem solving.
           </p>
           <div>
             <a href="https://github.com/jreitz2/" target="_blank" rel="noopener noreferrer">
