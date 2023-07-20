@@ -8,6 +8,17 @@ import chirperImg from './assets/chirper.png';
 import justChatImg from './assets/just-chat.png';
 import onHandImg from './assets/on-hand.png';
 import generalImg from './assets/general-store.png';
+import css from './assets/css.png';
+import firebase from './assets/firebase.png';
+import git from './assets/git.png';
+import html from './assets/html.png';
+import js from './assets/js.png';
+import mongodb from './assets/mongodb.png';
+import node from './assets/node.jpg';
+import npm from './assets/npm.png';
+import react from './assets/react.png';
+import sass from './assets/sass.png';
+
 
 function App() {
   const scrollToSection = (sectionId) => {
@@ -22,6 +33,7 @@ function App() {
       <NavBar scrollToSection={scrollToSection} />
       <header>
         <h1>Josh Reitz</h1>
+        <p>Front-end Web Developer</p>
       </header>
       <main>
         <Section id="about" title="About Me">
@@ -38,17 +50,17 @@ function App() {
           </div>
         </Section>
         <Section id="skills" title="Skills">
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Sass</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Firebase</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>MongoDB</li>
-            <li>Git/Github</li>
+          <ul className="skills-list">
+            <li><img src={html} alt="html" /></li>
+            <li><img src={css} alt="css" /></li>
+            <li><img src={sass} alt="sass" /></li>
+            <li><img src={js} alt="js" /></li>
+            <li><img src={react} alt="react" /></li>
+            <li><img src={firebase} alt="firebase" /></li>
+            <li><img src={node} alt="node" /></li>
+            <li><img src={mongodb} alt="mongodb" /></li>
+            <li><img src={npm} alt="npm" /></li>
+            <li><img src={git} alt="git" /></li>
           </ul>
         </Section>
         <Section id="projects" title="Projects">
@@ -64,7 +76,7 @@ function App() {
             <ProjectCard
               imageSrc={justChatImg}
               title="Just Chat"
-              description="Real-time chat app with email/password authentication."
+              description="Real-time chat app including email/password authentication."
               liveLink="http://just-chat-496c6.web.app"
               codeLink="https://github.com/jreitz2/just-chat"
               technologies={['React', 'Firebase', 'CSS']}
@@ -89,9 +101,10 @@ function App() {
         </Section>
         <Section id="contact" title="Contact">
           <p>
-            Email: <a href="mailto:jreitz2@gmail.com">Jreitz2@gmail.com</a>
-            <br></br>
-            Phone: (706)442-3754
+            <b>Email:</b> <a href="mailto:jreitz2@gmail.com">Jreitz2@gmail.com</a>
+            <br />
+            <br />
+            <b>Phone:</b> (706)442-3754
           </p>
         </Section>
       </main>

@@ -41,9 +41,14 @@ const ProjectCard = ({ imageSrc, title, description, liveLink, codeLink, technol
                     </span>
                     ))}
             </div>
-            <a href={codeLink} target="_blank" rel="noopener noreferrer">
-                View code
-            </a>
+            <div className="project-links">
+            <a href={liveLink} target="_blank" rel="noopener noreferrer">
+                  Live link
+              </a>
+              <a href={codeLink} target="_blank" rel="noopener noreferrer">
+                  View code
+              </a>
+            </div>
         </div>
     </li>
      );
