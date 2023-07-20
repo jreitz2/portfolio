@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1d9615a5.css",
-    "main.js": "/portfolio/static/js/main.ce310ab4.js",
+    "main.css": "/portfolio/static/css/main.8fc97bc1.css",
+    "main.js": "/portfolio/static/js/main.205468f1.js",
     "static/media/portbg.jpg": "/portfolio/static/media/portbg.b06f9c65fe2ff3687161.jpg",
     "static/media/on-hand.png": "/portfolio/static/media/on-hand.20df39ae1ae76fb8630d.png",
     "static/media/general-store.png": "/portfolio/static/media/general-store.e6e1aac0621775f7761f.png",
     "static/media/chirper.png": "/portfolio/static/media/chirper.f86d51fc34a9650e6961.png",
     "static/media/just-chat.png": "/portfolio/static/media/just-chat.9b560399970c42da502b.png",
+    "static/media/node.jpg": "/portfolio/static/media/node.c6ff4b30279fe8fabb02.jpg",
+    "static/media/sass.png": "/portfolio/static/media/sass.91714f748188b46f4e33.png",
+    "static/media/react.png": "/portfolio/static/media/react.07d9e407d4e491c548d5.png",
+    "static/media/mongodb.png": "/portfolio/static/media/mongodb.c15fbad9c08cc9f64d10.png",
+    "static/media/firebase.png": "/portfolio/static/media/firebase.6ea3b0b39b97b0e49515.png",
+    "static/media/html.png": "/portfolio/static/media/html.cfb2ba4a6b1c3de295bc.png",
+    "static/media/css.png": "/portfolio/static/media/css.4a6549b8c2b4cda8bb88.png",
+    "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.1d9615a5.css.map": "/portfolio/static/css/main.1d9615a5.css.map",
-    "main.ce310ab4.js.map": "/portfolio/static/js/main.ce310ab4.js.map"
+    "main.8fc97bc1.css.map": "/portfolio/static/css/main.8fc97bc1.css.map",
+    "main.205468f1.js.map": "/portfolio/static/js/main.205468f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d9615a5.css",
-    "static/js/main.ce310ab4.js"
+    "static/css/main.8fc97bc1.css",
+    "static/js/main.205468f1.js"
   ]
 }
