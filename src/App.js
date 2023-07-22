@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar';
 import Section from './Components/Section';
 import ProjectCard from './Components/ProjectCard';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { Tooltip } from 'react-tooltip';
 import chirperImg from './assets/chirper.png';
 import justChatImg from './assets/just-chat.png';
 import onHandImg from './assets/on-hand.png';
@@ -49,18 +50,39 @@ function App() {
             </a>
           </div>
         </Section>
+        <Tooltip id="my-tooltip" />
         <Section id="skills" title="Skills">
           <ul className="skills-list">
-            <li><img src={html} alt="html" /></li>
-            <li><img src={css} alt="css" /></li>
-            <li><img src={sass} alt="sass" /></li>
-            <li><img src={js} alt="js" /></li>
-            <li><img src={react} alt="react" /></li>
-            <li><img src={firebase} alt="firebase" /></li>
-            <li><img src={node} alt="node" /></li>
-            <li><img src={mongodb} alt="mongodb" /></li>
-            <li><img src={npm} alt="npm" /></li>
-            <li><img src={git} alt="git" /></li>
+            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="HTML5">
+              <img src={html} alt="html" />
+            </li>
+            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="CSS3">
+              <img src={css} alt="css" />
+            </li>
+            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="Sass">
+              <img src={sass} alt="sass" />
+            </li>
+            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="JavaScript">
+              <img src={js} alt="js" />
+            </li>
+            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="React.js">
+              <img src={react} alt="react" />
+            </li>
+            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="Firebase">
+              <img src={firebase} alt="firebase" />
+            </li>
+            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="Node.js & Express">
+              <img src={node} alt="node" />
+            </li>
+            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="MongoDB">
+              <img src={mongodb} alt="mongodb" />
+            </li>
+            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="npm">
+              <img src={npm} alt="npm" />
+            </li>
+            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="git">
+              <img src={git} alt="git" />
+            </li>
           </ul>
         </Section>
         <Section id="projects" title="Projects">
