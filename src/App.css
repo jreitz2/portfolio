@@ -143,6 +143,10 @@ ul {
 #contact p {
     text-align: left;
 }
+
+#contact a:hover {
+    color: goldenrod;
+}
   
 footer {
     background-color: #cecece;;
