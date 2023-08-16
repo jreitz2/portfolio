@@ -1,5 +1,6 @@
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaDatabase,  } from 'react-icons/fa';
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
 import { SiFirebase } from "@react-icons/all-files/si/SiFirebase";
+import { SiMongodb } from "@react-icons/all-files/si/SiMongodb";
 
 const ProjectCard = ({ imageSrc, title, description, liveLink, codeLink, technologies }) => {
     
@@ -18,7 +19,9 @@ const ProjectCard = ({ imageSrc, title, description, liveLink, codeLink, technol
           case 'Database':
             return <FaDatabase />;
           case 'Firebase':
-            return <SiFirebase />  
+            return <SiFirebase />;
+          case 'MongoDB':
+            return <SiMongodb />;  
           default:
             return null;
         }
@@ -36,7 +39,7 @@ const ProjectCard = ({ imageSrc, title, description, liveLink, codeLink, technol
             <p>{description}</p>
             <div className="technologies">
                 {technologies.map((technology, index) => (
-                    <span key={index} className="technology-icon">
+                    <span key={index} className="technology-icon" data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content={technology}>
                         {renderTechnologyIcon(technology)}
                     </span>
                     ))}

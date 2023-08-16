@@ -8,7 +8,7 @@ import { Tooltip } from 'react-tooltip';
 import chirperImg from './assets/chirper.png';
 import justChatImg from './assets/just-chat.png';
 import onHandImg from './assets/on-hand.png';
-import generalImg from './assets/general-store.png';
+import spellscribeImg from './assets/spellscribe.png';
 import css from './assets/css.png';
 import firebase from './assets/firebase.png';
 import git from './assets/git.png';
@@ -19,7 +19,7 @@ import node from './assets/node.jpg';
 import npm from './assets/npm.png';
 import react from './assets/react.png';
 import sass from './assets/sass.png';
-
+import jest from './assets/jest.png';
 
 function App() {
   const scrollToSection = (sectionId) => {
@@ -83,10 +83,21 @@ function App() {
             <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="git">
               <img src={git} alt="git" />
             </li>
+            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="Jest">
+              <img src={jest} alt="jest" />
+            </li>
           </ul>
         </Section>
         <Section id="projects" title="Projects">
           <ul className="project-list">
+            <ProjectCard
+              imageSrc={spellscribeImg}
+              title="SpellScribe"
+              description="Full-stack MERN CRUD app for creating DND5e characters with spellbooks. Spell information obtained from the D&D 5e API. Session authentication using email/password."
+              liveLink="https://spellscribe.onrender.com/"
+              codeLink="https://github.com/jreitz2/spellscribe"
+              technologies={['React', 'CSS', 'Node.js', 'MongoDB']}
+            />
             <ProjectCard
               imageSrc={chirperImg}
               title="Chirper"
@@ -111,14 +122,6 @@ function App() {
               codeLink="https://github.com/jreitz2/recipe-api-call"
               technologies={['JavaScript', 'HTML', 'CSS']}
             />
-            <ProjectCard
-              imageSrc={generalImg}
-              title="General Store"
-              description="Old West themed store with shopping cart."
-              liveLink="https://jreitz2.github.io/shopping-cart/"
-              codeLink="https://github.com/jreitz2/shopping-cart"
-              technologies={['React', 'CSS']}
-            />
           </ul>
         </Section>
         <Section id="contact" title="Contact">
@@ -127,11 +130,16 @@ function App() {
             <br />
             <br />
             <b>Phone:</b> (706)442-3754
+            <br />
+            <br />
+            <object data={require('./assets/Joshua_Reitz_Web_Dev_Resume.docx')} type="application/msword">
+              <a href={require('./assets/Joshua_Reitz_Web_Dev_Resume.docx')}>My Resume</a>
+            </object>
           </p>
         </Section>
       </main>
       <footer>
-        <p>&copy; {new Date().getFullYear()} Josh Reitz. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Josh Reitz</p>
       </footer>
     </div>
   );

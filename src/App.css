@@ -16,10 +16,11 @@ a {
 }
 
 header {
-    color: #333;
+    color: #0f0f0f;
+    text-shadow: 1px 1px #ccc;
     font-size: 2rem;
     padding: 20px;
-    background-image: url('./assets/portbg.jpg');
+    background-image: url('./assets/portbg2.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -142,6 +143,7 @@ ul {
   
 #contact p {
     text-align: left;
+    font-size: 1.5rem;
 }
 
 #contact a:hover {

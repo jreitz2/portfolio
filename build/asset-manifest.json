@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2247f704.css",
+    "main.js": "/portfolio/static/js/main.d72933db.js",
+    "static/media/portbg2.jpg": "/portfolio/static/media/portbg2.bef0f311688f10acf55c.jpg",
+    "static/media/on-hand.png": "/portfolio/static/media/on-hand.3f50c1f9752853a520cc.png",
+    "static/media/spellscribe.png": "/portfolio/static/media/spellscribe.a01094814b558d5880f1.png",
+    "static/media/chirper.png": "/portfolio/static/media/chirper.46bb1a2993c927f5666b.png",
+    "static/media/node.jpg": "/portfolio/static/media/node.1967388367455a8fed0e.jpg",
+    "static/media/sass.png": "/portfolio/static/media/sass.91714f748188b46f4e33.png",
+    "static/media/react.png": "/portfolio/static/media/react.07d9e407d4e491c548d5.png",
+    "static/media/just-chat.png": "/portfolio/static/media/just-chat.bd6528adc3bd882c5ae8.png",
+    "static/media/mongodb.png": "/portfolio/static/media/mongodb.c15fbad9c08cc9f64d10.png",
+    "static/media/firebase.png": "/portfolio/static/media/firebase.6ea3b0b39b97b0e49515.png",
+    "static/media/html.png": "/portfolio/static/media/html.cfb2ba4a6b1c3de295bc.png",
+    "static/media/css.png": "/portfolio/static/media/css.4a6549b8c2b4cda8bb88.png",
+    "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/Joshua_Reitz_Web_Dev_Resume.docx": "/portfolio/static/media/Joshua_Reitz_Web_Dev_Resume.67cb8c574b3a34ae6cd8.docx",
+    "index.html": "/portfolio/index.html",
+    "main.2247f704.css.map": "/portfolio/static/css/main.2247f704.css.map",
+    "main.d72933db.js.map": "/portfolio/static/js/main.d72933db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2247f704.css",
+    "static/js/main.d72933db.js"
+  ]
+}
