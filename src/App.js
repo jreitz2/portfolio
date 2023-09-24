@@ -1,31 +1,32 @@
-import React from 'react';
-import './App.css';
-import NavBar from './Components/NavBar';
-import Section from './Components/Section';
-import ProjectCard from './Components/ProjectCard';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { Tooltip } from 'react-tooltip';
-import chirperImg from './assets/chirper.png';
-import justChatImg from './assets/just-chat.png';
-import onHandImg from './assets/on-hand.png';
-import spellscribeImg from './assets/spellscribe.png';
-import css from './assets/css.png';
-import firebase from './assets/firebase.png';
-import git from './assets/git.png';
-import html from './assets/html.png';
-import js from './assets/js.png';
-import mongodb from './assets/mongodb.png';
-import node from './assets/node.jpg';
-import npm from './assets/npm.png';
-import react from './assets/react.png';
-import sass from './assets/sass.png';
-import jest from './assets/jest.png';
+import React from "react";
+import "./App.css";
+import NavBar from "./Components/NavBar";
+import Section from "./Components/Section";
+import ProjectCard from "./Components/ProjectCard";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Tooltip } from "react-tooltip";
+import chirperImg from "./assets/chirper.png";
+import justChatImg from "./assets/just-chat.png";
+import onHandImg from "./assets/on-hand.png";
+import spellscribeImg from "./assets/spellscribe.png";
+import css from "./assets/css.png";
+import firebase from "./assets/firebase.png";
+import git from "./assets/git.png";
+import html from "./assets/html.png";
+import js from "./assets/js.png";
+import ts from "./assets/ts.png";
+import mongodb from "./assets/mongodb.png";
+import node from "./assets/node.jpg";
+import npm from "./assets/npm.png";
+import react from "./assets/react.png";
+import sass from "./assets/sass.png";
+import jest from "./assets/jest.png";
 
 function App() {
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      section.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -39,13 +40,23 @@ function App() {
       <main>
         <Section id="about" title="About Me">
           <p>
-          Hi! I'm Josh Reitz, a passionate web developer. I specialize in front-end development and enjoy learning, creating, and problem solving.
+            Hi! I'm Josh Reitz, a passionate web developer. I specialize in
+            front-end development and enjoy learning, creating, and problem
+            solving.
           </p>
           <div>
-            <a href="https://github.com/jreitz2/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/jreitz2/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub className="about-icons" />
             </a>
-            <a href="https://www.linkedin.com/in/joshua-reitz-643796276/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/joshua-reitz-643796276/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedin className="about-icons" />
             </a>
           </div>
@@ -53,37 +64,88 @@ function App() {
         <Tooltip id="my-tooltip" />
         <Section id="skills" title="Skills">
           <ul className="skills-list">
-            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="HTML5">
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
+              data-tooltip-content="HTML5"
+            >
               <img src={html} alt="html" />
             </li>
-            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="CSS3">
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
+              data-tooltip-content="CSS3"
+            >
               <img src={css} alt="css" />
             </li>
-            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="Sass">
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
+              data-tooltip-content="Sass"
+            >
               <img src={sass} alt="sass" />
             </li>
-            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="JavaScript">
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
+              data-tooltip-content="JavaScript"
+            >
               <img src={js} alt="js" />
             </li>
-            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="React.js">
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
+              data-tooltip-content="TypeScript"
+            >
+              <img src={ts} alt="ts" />
+            </li>
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
+              data-tooltip-content="React.js"
+            >
               <img src={react} alt="react" />
             </li>
-            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="Firebase">
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
+              data-tooltip-content="Firebase"
+            >
               <img src={firebase} alt="firebase" />
             </li>
-            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="Node.js & Express">
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
+              data-tooltip-content="Node.js & Express"
+            >
               <img src={node} alt="node" />
             </li>
-            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="MongoDB">
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
+              data-tooltip-content="MongoDB"
+            >
               <img src={mongodb} alt="mongodb" />
             </li>
-            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="npm">
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
+              data-tooltip-content="npm"
+            >
               <img src={npm} alt="npm" />
             </li>
-            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="git">
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
+              data-tooltip-content="git"
+            >
               <img src={git} alt="git" />
             </li>
-            <li data-tooltip-id="my-tooltip" data-tooltip-place="bottom" data-tooltip-content="Jest">
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
+              data-tooltip-content="Jest"
+            >
               <img src={jest} alt="jest" />
             </li>
           </ul>
@@ -96,7 +158,7 @@ function App() {
               description="Full-stack MERN CRUD app for creating DND5e characters with spellbooks. Spell information obtained from the D&D 5e API. Session authentication using email/password."
               liveLink="https://spellscribe.onrender.com/"
               codeLink="https://github.com/jreitz2/spellscribe"
-              technologies={['React', 'CSS', 'Node.js', 'MongoDB']}
+              technologies={["React", "CSS", "Node.js", "MongoDB"]}
             />
             <ProjectCard
               imageSrc={chirperImg}
@@ -104,7 +166,7 @@ function App() {
               description="Social media app complete with Google authentication, cloud storage, and emojis."
               liveLink="http://chirper-7b053.web.app"
               codeLink="https://github.com/jreitz2/chirper"
-              technologies={['React', 'Firebase', 'CSS']}
+              technologies={["React", "Firebase", "CSS"]}
             />
             <ProjectCard
               imageSrc={justChatImg}
@@ -112,28 +174,34 @@ function App() {
               description="Real-time chat app including email/password authentication."
               liveLink="http://just-chat-496c6.web.app"
               codeLink="https://github.com/jreitz2/just-chat"
-              technologies={['React', 'Firebase', 'CSS']}
+              technologies={["React", "Firebase", "CSS"]}
             />
             <ProjectCard
               imageSrc={onHandImg}
               title="On-hand Cuisine"
               description="Search ingredients you already have to recieve recipes from the Spoonacular API."
-              liveLink="https://jreitz2.github.io/recipe-api-call/"
-              codeLink="https://github.com/jreitz2/recipe-api-call"
-              technologies={['JavaScript', 'HTML', 'CSS']}
+              liveLink="https://jreitz2.github.io/on-hand-cuisine/"
+              codeLink="https://github.com/jreitz2/on-hand-cuisine"
+              technologies={["React", "TypeScript", "CSS"]}
             />
           </ul>
         </Section>
         <Section id="contact" title="Contact">
           <p>
-            <b>Email:</b> <a href="mailto:jreitz2@gmail.com">Jreitz2@gmail.com</a>
+            <b>Email:</b>{" "}
+            <a href="mailto:jreitz2@gmail.com">Jreitz2@gmail.com</a>
             <br />
             <br />
             <b>Phone:</b> (706)442-3754
             <br />
             <br />
-            <object data={require('./assets/Joshua_Reitz_Web_Dev_Resume.docx')} type="application/msword">
-              <a href={require('./assets/Joshua_Reitz_Web_Dev_Resume.docx')}>My Resume</a>
+            <object
+              data={require("./assets/Joshua_Reitz_Web_Dev_Resume.docx")}
+              type="application/msword"
+            >
+              <a href={require("./assets/Joshua_Reitz_Web_Dev_Resume.docx")}>
+                My Resume
+              </a>
             </object>
           </p>
         </Section>
