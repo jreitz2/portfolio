@@ -1,176 +1,178 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap");
 
 .App {
-    text-align: center;
-  }
+  text-align: center;
+}
 
 body {
-    margin: 0;
-    font-family: 'League Spartan', sans-serif;
-    background-color: #f2f2f2;;
+  margin: 0;
+  font-family: "League Spartan", sans-serif;
+  background-color: #f2f2f2;
 }
 
 a {
-    color: inherit;
-    cursor: pointer;
+  color: inherit;
+  cursor: pointer;
 }
 
 header {
-    color: #0f0f0f;
-    text-shadow: 1px 1px #ccc;
-    font-size: 2rem;
-    padding: 20px;
-    background-image: url('./assets/portbg2.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
+  color: #0f0f0f;
+  text-shadow: 1px 1px #ccc;
+  font-size: 2rem;
+  padding: 20px;
+  background-image: url("./assets/portbg2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
 }
-
+#about {
+  font-size: 1.3rem;
+}
 .about-icons {
-    font-size: 8rem;
+  font-size: 8rem;
 }
 
 .about-icons:hover {
-    color: goldenrod;
+  color: goldenrod;
 }
 
 .skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills-list img {
-    width: 100px;
+  width: 100px;
 }
 
 nav {
-    background-color: #cecece;
-    padding: 10px;
-    border-bottom: 3px solid rgba(151, 151, 151, 0.2);
+  background-color: #cecece;
+  padding: 10px;
+  border-bottom: 3px solid rgba(151, 151, 151, 0.2);
 }
-  
+
 nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
-  
+
 nav ul li button {
-    background-color: transparent;
-    border: none;
-    color: #333;
-    font-size: 1.5rem;
-    cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
-  
+
 nav ul li button:hover {
-    text-decoration: underline;
-    color: goldenrod;
+  text-decoration: underline;
+  color: goldenrod;
 }
-  
+
 main {
-    padding: 40px;
-    border-top: 5px solid rgba(151, 151, 151, 0.2);
+  padding: 40px;
+  border-top: 5px solid rgba(151, 151, 151, 0.2);
 }
-  
+
 section {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
-  
+
 section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
-  
+
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .project-list {
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 3rem;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
 }
-  
+
 .project-card {
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
-    border: 2px solid #333;
+  border: 2px solid #333;
 }
-  
+
 .project-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
-  
+
 .project-details h3 {
-    font-size: 1.3rem;
-    margin-bottom: 10px;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
 }
-  
+
 .project-details p {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .project-details a:hover {
-    color: goldenrod;
+  color: goldenrod;
 }
 
 .project-links {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    margin: .5rem;
-    font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 0.5rem;
+  font-weight: bold;
 }
 
 .technologies {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-  
+
 #contact p {
-    text-align: left;
-    font-size: 1.5rem;
+  text-align: left;
+  font-size: 1.5rem;
 }
 
 #contact a:hover {
-    color: goldenrod;
+  color: goldenrod;
 }
-  
+
 footer {
-    background-color: #cecece;;
-    padding: 20px;
-    border-top: 5px solid rgba(151, 151, 151, 0.2);
+  background-color: #cecece;
+  padding: 20px;
+  border-top: 5px solid rgba(151, 151, 151, 0.2);
 }
 
 @media only screen and (max-width: 600px) {
-    main {
-        padding: 0;
-    }
-    nav ul {
-        gap: 5px;
-    }
-    nav ul li button {
-        font-size: 1rem;
-    }
-    header {
-        height: 300px;
-    }
-    .project-list {
-        padding: 0;
-        margin: 0;
-    }
+  main {
+    padding: 0;
+  }
+  nav ul {
+    gap: 5px;
+  }
+  nav ul li button {
+    font-size: 1rem;
+  }
+  header {
+    height: 300px;
+  }
+  .project-list {
+    padding: 0;
+    margin: 0;
+  }
 }
