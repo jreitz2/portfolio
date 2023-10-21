@@ -1,28 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9280bb1d.css",
-    "main.js": "/portfolio/static/js/main.6dcd0a83.js",
-    "static/media/portbg2.jpg": "/portfolio/static/media/portbg2.bef0f311688f10acf55c.jpg",
-    "static/media/on-hand.png": "/portfolio/static/media/on-hand.f40c85a645527aa09bb0.png",
-    "static/media/spellscribe.png": "/portfolio/static/media/spellscribe.a01094814b558d5880f1.png",
-    "static/media/chirper.png": "/portfolio/static/media/chirper.46bb1a2993c927f5666b.png",
-    "static/media/node.jpg": "/portfolio/static/media/node.1967388367455a8fed0e.jpg",
-    "static/media/sass.png": "/portfolio/static/media/sass.91714f748188b46f4e33.png",
-    "static/media/react.png": "/portfolio/static/media/react.07d9e407d4e491c548d5.png",
-    "static/media/just-chat.png": "/portfolio/static/media/just-chat.bd6528adc3bd882c5ae8.png",
-    "static/media/mongodb.png": "/portfolio/static/media/mongodb.c15fbad9c08cc9f64d10.png",
-    "static/media/firebase.png": "/portfolio/static/media/firebase.6ea3b0b39b97b0e49515.png",
-    "static/media/html.png": "/portfolio/static/media/html.cfb2ba4a6b1c3de295bc.png",
-    "static/media/css.png": "/portfolio/static/media/css.4a6549b8c2b4cda8bb88.png",
-    "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
-    "static/media/ts.png": "/portfolio/static/media/ts.415b406109dfe385d86c.png",
+    "main.css": "/portfolio/static/css/main.1c53f693.css",
+    "main.js": "/portfolio/static/js/main.90263587.js",
+    "static/media/portbg2.jpg": "/portfolio/static/media/portbg2.5c2560c12dda03276659.jpg",
+    "static/media/on-hand.png": "/portfolio/static/media/on-hand.b4423966622c1c87a63a.png",
+    "static/media/spellscribe.png": "/portfolio/static/media/spellscribe.704774e48968547aabf9.png",
+    "static/media/chirper.png": "/portfolio/static/media/chirper.1c547386d279d0d442f1.png",
+    "static/media/just-chat.png": "/portfolio/static/media/just-chat.7f5ee5045965e2923700.png",
+    "static/media/sass.png": "/portfolio/static/media/sass.956f19f8eac0c8908334.png",
+    "static/media/node.jpg": "/portfolio/static/media/node.a4d862ae05448a714d3f.jpg",
+    "static/media/react.png": "/portfolio/static/media/react.d244f1d2e06d9b353528.png",
     "static/media/Joshua_Reitz_Web_Dev_Resume.docx": "/portfolio/static/media/Joshua_Reitz_Web_Dev_Resume.67cb8c574b3a34ae6cd8.docx",
     "index.html": "/portfolio/index.html",
-    "main.9280bb1d.css.map": "/portfolio/static/css/main.9280bb1d.css.map",
-    "main.6dcd0a83.js.map": "/portfolio/static/js/main.6dcd0a83.js.map"
+    "main.1c53f693.css.map": "/portfolio/static/css/main.1c53f693.css.map",
+    "main.90263587.js.map": "/portfolio/static/js/main.90263587.js.map"
   },
   "entrypoints": [
-    "static/css/main.9280bb1d.css",
-    "static/js/main.6dcd0a83.js"
+    "static/css/main.1c53f693.css",
+    "static/js/main.90263587.js"
   ]
 }
