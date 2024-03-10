@@ -40,13 +40,13 @@ function App() {
       <main>
         <Section id="about" title="About Me">
           <p>
-            Hey there! I'm Josh Reitz, your friendly neighborhood web developer
-            with a dash of culinary flair. By day, I code and craft seamless
-            front-end experiences. By night, I transform into a chef whipping up
-            delicious dishes. When I'm not immersed in the world of coding or
-            cooking, you can find me rolling the dice in epic Dungeons & Dragons
-            adventures. I'm all about blending creativity, problem-solving, and
-            a pinch of magic to bring digital dreams to life!
+            Hi! I'm Josh Reitz, a highly motivated web developer with a dash of
+            culinary flair. By day, I code and craft seamless front-end
+            experiences. By night, I transform into a chef preparing delicious
+            dishes. When I'm not immersed in the world of coding or cooking, you
+            can find me engaged in epic Dungeons & Dragons adventures. I'm all
+            about blending creativity, problem-solving, and a pinch of magic to
+            bring digital dreams to life!
           </p>
           <div>
             <a
