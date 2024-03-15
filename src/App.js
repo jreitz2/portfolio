@@ -202,7 +202,7 @@ function App() {
               data={require("./assets/Joshua_Reitz_Web_Dev_Resume.docx")}
               type="application/msword"
             >
-              <a href={require("./assets/Joshua_Reitz_Web_Dev_Resume.docx")}>
+              <a href={require("./assets/JoshuaReitz_Resume.docx")}>
                 My Resume
               </a>
             </object>
