@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e503053f.css",
-    "main.js": "/portfolio/static/js/main.7d55756c.js",
+    "main.css": "/portfolio/static/css/main.971a9f3f.css",
+    "main.js": "/portfolio/static/js/main.24a62f33.js",
     "static/media/portbg2.jpg": "/portfolio/static/media/portbg2.5c2560c12dda03276659.jpg",
     "static/media/on-hand.png": "/portfolio/static/media/on-hand.b4423966622c1c87a63a.png",
     "static/media/spellscribe.png": "/portfolio/static/media/spellscribe.704774e48968547aabf9.png",
@@ -10,13 +10,13 @@
     "static/media/sass.png": "/portfolio/static/media/sass.956f19f8eac0c8908334.png",
     "static/media/node.jpg": "/portfolio/static/media/node.a4d862ae05448a714d3f.jpg",
     "static/media/react.png": "/portfolio/static/media/react.d244f1d2e06d9b353528.png",
-    "static/media/Joshua_Reitz_Web_Dev_Resume.docx": "/portfolio/static/media/Joshua_Reitz_Web_Dev_Resume.67cb8c574b3a34ae6cd8.docx",
+    "static/media/JoshuaReitz_Resume.docx": "/portfolio/static/media/JoshuaReitz_Resume.2c48c54b271dec6c963c.docx",
     "index.html": "/portfolio/index.html",
-    "main.e503053f.css.map": "/portfolio/static/css/main.e503053f.css.map",
-    "main.7d55756c.js.map": "/portfolio/static/js/main.7d55756c.js.map"
+    "main.971a9f3f.css.map": "/portfolio/static/css/main.971a9f3f.css.map",
+    "main.24a62f33.js.map": "/portfolio/static/js/main.24a62f33.js.map"
   },
   "entrypoints": [
-    "static/css/main.e503053f.css",
-    "static/js/main.7d55756c.js"
+    "static/css/main.971a9f3f.css",
+    "static/js/main.24a62f33.js"
   ]
 }
