@@ -199,7 +199,7 @@ function App() {
             <br />
             <br />
             <object
-              data={require("./assets/Joshua_Reitz_Web_Dev_Resume.docx")}
+              data={require("./assets/JoshuaReitz_Resume.docx")}
               type="application/msword"
             >
               <a href={require("./assets/JoshuaReitz_Resume.docx")}>
