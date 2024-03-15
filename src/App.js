@@ -174,7 +174,7 @@ function App() {
             <ProjectCard
               imageSrc={justChatImg}
               title="Just Chat"
-              description="Real-time chat app including email/password authentication."
+              description="Real-time chat app including Google authentication. Engage in group chat, or direct message with other users."
               liveLink="http://just-chat-496c6.web.app"
               codeLink="https://github.com/jreitz2/just-chat"
               technologies={["React", "Firebase", "CSS"]}
