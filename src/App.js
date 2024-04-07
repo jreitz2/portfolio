@@ -17,7 +17,6 @@ import js from "./assets/js.png";
 import ts from "./assets/ts.png";
 import mongodb from "./assets/mongodb.png";
 import node from "./assets/node.jpg";
-import npm from "./assets/npm.png";
 import react from "./assets/react.png";
 import sass from "./assets/sass.png";
 import jest from "./assets/jest.png";
@@ -35,17 +34,17 @@ function App() {
       <NavBar scrollToSection={scrollToSection} />
       <header>
         <h1>Josh Reitz</h1>
-        <p>Front-end Web Developer</p>
+        <p>Full-Stack Web Developer</p>
       </header>
       <main>
         <Section id="about" title="About Me">
           <p>
             Hi! I'm Josh Reitz, a highly motivated web developer. I specialize
-            in front-end development, but enjoy challenging myself and
-            constantly learning new technologies. When I'm not immersed in the
-            world of coding, I enjoy hiking, cooking, and engaging in epic
-            Dungeons & Dragons adventures. I'm all about blending creativity and
-            problem-solving to bring users accessible and enjoyable experiences.
+            in React, but enjoy challenging myself and constantly learning new
+            technologies. When I'm not immersed in the world of coding, I enjoy
+            hiking, cooking, and engaging in epic Dungeons & Dragons adventures.
+            I'm all about blending creativity and problem-solving to bring users
+            accessible and enjoyable experiences.
           </p>
           <div>
             <a
@@ -129,13 +128,6 @@ function App() {
               data-tooltip-content="MongoDB"
             >
               <img src={mongodb} alt="mongodb" />
-            </li>
-            <li
-              data-tooltip-id="my-tooltip"
-              data-tooltip-place="bottom"
-              data-tooltip-content="npm"
-            >
-              <img src={npm} alt="npm" />
             </li>
             <li
               data-tooltip-id="my-tooltip"
