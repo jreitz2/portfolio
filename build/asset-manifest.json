@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7a70f680.css",
-    "main.js": "/portfolio/static/js/main.e066e99c.js",
+    "main.js": "/portfolio/static/js/main.44db73f3.js",
     "static/media/portbg2.jpg": "/portfolio/static/media/portbg2.5c2560c12dda03276659.jpg",
     "static/media/on-hand.png": "/portfolio/static/media/on-hand.b4423966622c1c87a63a.png",
     "static/media/spellscribe.png": "/portfolio/static/media/spellscribe.704774e48968547aabf9.png",
     "static/media/chirper.png": "/portfolio/static/media/chirper.1c547386d279d0d442f1.png",
+    "static/media/JoshuaReitz_Resume.pdf": "/portfolio/static/media/JoshuaReitz_Resume.9d424f9bb295ed534362.pdf",
     "static/media/just-chat.png": "/portfolio/static/media/just-chat.7f5ee5045965e2923700.png",
     "static/media/sass.png": "/portfolio/static/media/sass.956f19f8eac0c8908334.png",
     "static/media/node.jpg": "/portfolio/static/media/node.a4d862ae05448a714d3f.jpg",
     "static/media/react.png": "/portfolio/static/media/react.d244f1d2e06d9b353528.png",
-    "static/media/JoshuaReitz_Resume.docx": "/portfolio/static/media/JoshuaReitz_Resume.2c48c54b271dec6c963c.docx",
     "index.html": "/portfolio/index.html",
     "main.7a70f680.css.map": "/portfolio/static/css/main.7a70f680.css.map",
-    "main.e066e99c.js.map": "/portfolio/static/js/main.e066e99c.js.map"
+    "main.44db73f3.js.map": "/portfolio/static/js/main.44db73f3.js.map"
   },
   "entrypoints": [
     "static/css/main.7a70f680.css",
-    "static/js/main.e066e99c.js"
+    "static/js/main.44db73f3.js"
   ]
 }

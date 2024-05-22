@@ -16,6 +16,7 @@ const ProjectCard = ({
   description,
   liveLink,
   codeLink,
+  nativeCodeLink,
   technologies,
 }) => {
   const renderTechnologyIcon = (technology) => {
@@ -73,6 +74,11 @@ const ProjectCard = ({
           <a href={codeLink} target="_blank" rel="noopener noreferrer">
             View code
           </a>
+          {nativeCodeLink && (
+            <a href={nativeCodeLink} target="_blank" rel="noopener noreferrer">
+              View native code
+            </a>
+          )}
         </div>
       </div>
     </li>

@@ -55,7 +55,7 @@ function App() {
               <FaGithub className="about-icons" />
             </a>
             <a
-              href="https://www.linkedin.com/in/joshua-reitz-643796276/"
+              href="https://www.linkedin.com/in/josh-reitz-643796276/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -148,22 +148,6 @@ function App() {
         <Section id="projects" title="Projects">
           <ul className="project-list">
             <ProjectCard
-              imageSrc={spellscribeImg}
-              title="SpellScribe"
-              description="Full-stack MERN CRUD app for creating DND5e characters with spellbooks. Spell information obtained from the D&D 5e API. Session authentication using email/password."
-              liveLink="https://spellscribe.onrender.com/"
-              codeLink="https://github.com/jreitz2/spellscribe"
-              technologies={["React", "CSS", "Node.js", "MongoDB"]}
-            />
-            <ProjectCard
-              imageSrc={chirperImg}
-              title="Chirper"
-              description="Social media app complete with Google authentication, cloud storage, and emojis."
-              liveLink="http://chirper-7b053.web.app"
-              codeLink="https://github.com/jreitz2/chirper"
-              technologies={["React", "Firebase", "CSS"]}
-            />
-            <ProjectCard
               imageSrc={justChatImg}
               title="Just Chat"
               description="Real-time chat app including Google authentication. Engage in group chat, or direct message with other users."
@@ -174,10 +158,27 @@ function App() {
             <ProjectCard
               imageSrc={onHandImg}
               title="On-hand Cuisine"
-              description="Search ingredients you already have to recieve recipes from the Spoonacular API."
+              description="Search for ingredients you already have to recieve recipes from the Spoonacular API. Includes filters for dietary restrictions."
               liveLink="https://jreitz2.github.io/on-hand-cuisine/"
               codeLink="https://github.com/jreitz2/on-hand-cuisine"
+              nativeCodeLink="https://github.com/jreitz2/onhand-native"
               technologies={["React", "TypeScript", "CSS"]}
+            />
+            <ProjectCard
+              imageSrc={spellscribeImg}
+              title="SpellScribe"
+              description="Full-stack MERN CRUD app for creating DND5e characters with spellbooks. Spell information obtained from the D&D 5e API. Session authentication using email/password."
+              liveLink="https://spellscribe.onrender.com/"
+              codeLink="https://github.com/jreitz2/spellscribe"
+              technologies={["React", "CSS", "Node.js", "MongoDB"]}
+            />
+            <ProjectCard
+              imageSrc={chirperImg}
+              title="Chirper"
+              description="Social media app complete with Google authentication, cloud storage for pictures, and emojis."
+              liveLink="http://chirper-7b053.web.app"
+              codeLink="https://github.com/jreitz2/chirper"
+              technologies={["React", "Firebase", "CSS"]}
             />
           </ul>
         </Section>
@@ -191,10 +192,14 @@ function App() {
             <br />
             <br />
             <object
-              data={require("./assets/JoshuaReitz_Resume.docx")}
+              data={require("./assets/JoshuaReitz_Resume.pdf")}
               type="application/msword"
             >
-              <a href={require("./assets/JoshuaReitz_Resume.docx")}>
+              <a
+                href={require("./assets/JoshuaReitz_Resume.pdf")}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 My Resume
               </a>
             </object>
