@@ -158,7 +158,7 @@ function App() {
             <ProjectCard
               imageSrc={onHandImg}
               title="On-hand Cuisine"
-              description="Search for ingredients you already have to recieve recipes from the Spoonacular API. Includes filters for dietary restrictions."
+              description="Search for ingredients you already have to recieve recipes from the Spoonacular API. Includes filters for dietary restrictions. Mobile app version available."
               liveLink="https://jreitz2.github.io/on-hand-cuisine/"
               codeLink="https://github.com/jreitz2/on-hand-cuisine"
               nativeCodeLink="https://github.com/jreitz2/onhand-native"
@@ -191,18 +191,13 @@ function App() {
             <b>Phone:</b> (706)442-3754
             <br />
             <br />
-            <object
-              data={require("./assets/JoshuaReitz_Resume.pdf")}
-              type="application/msword"
+            <a
+              href={require("./assets/JoshuaReitz_Resume.pdf")}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <a
-                href={require("./assets/JoshuaReitz_Resume.pdf")}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                My Resume
-              </a>
-            </object>
+              My Resume
+            </a>
           </p>
         </Section>
       </main>
