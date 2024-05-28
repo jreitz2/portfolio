@@ -159,9 +159,8 @@ function App() {
               imageSrc={onHandImg}
               title="On-hand Cuisine"
               description="Search for ingredients you already have to recieve recipes from the Spoonacular API. Includes filters for dietary restrictions. Mobile app version available."
-              liveLink="https://jreitz2.github.io/on-hand-cuisine/"
-              codeLink="https://github.com/jreitz2/on-hand-cuisine"
-              nativeCodeLink="https://github.com/jreitz2/onhand-native"
+              liveLink="https://jreitz2.github.io/onhand-native/"
+              codeLink="https://github.com/jreitz2/onhand-native"
               technologies={["React", "TypeScript", "CSS"]}
             />
             <ProjectCard
