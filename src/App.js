@@ -5,7 +5,7 @@ import Section from "./Components/Section";
 import ProjectCard from "./Components/ProjectCard";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Tooltip } from "react-tooltip";
-import chirperImg from "./assets/chirper.png";
+import biteMap from "./assets/bite-map.png";
 import justChatImg from "./assets/just-chat.png";
 import onHandImg from "./assets/on-hand.png";
 import spellscribeImg from "./assets/spellscribe.png";
@@ -18,7 +18,8 @@ import ts from "./assets/ts.png";
 import mongodb from "./assets/mongodb.png";
 import node from "./assets/node.jpg";
 import react from "./assets/react.png";
-import sass from "./assets/sass.png";
+import sql from "./assets/SQL.png";
+import supabase from "./assets/supabase.png";
 import jest from "./assets/jest.png";
 
 function App() {
@@ -83,13 +84,6 @@ function App() {
             <li
               data-tooltip-id="my-tooltip"
               data-tooltip-place="bottom"
-              data-tooltip-content="Sass"
-            >
-              <img src={sass} alt="sass" />
-            </li>
-            <li
-              data-tooltip-id="my-tooltip"
-              data-tooltip-place="bottom"
               data-tooltip-content="JavaScript"
             >
               <img src={js} alt="js" />
@@ -118,9 +112,23 @@ function App() {
             <li
               data-tooltip-id="my-tooltip"
               data-tooltip-place="bottom"
+              data-tooltip-content="Supabase"
+            >
+              <img src={supabase} alt="Supabase" />
+            </li>
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
               data-tooltip-content="Node.js & Express"
             >
               <img src={node} alt="node" />
+            </li>
+            <li
+              data-tooltip-id="my-tooltip"
+              data-tooltip-place="bottom"
+              data-tooltip-content="SQL"
+            >
+              <img src={sql} alt="sql" />
             </li>
             <li
               data-tooltip-id="my-tooltip"
@@ -148,6 +156,14 @@ function App() {
         <Section id="projects" title="Projects">
           <ul className="project-list">
             <ProjectCard
+              imageSrc={biteMap}
+              title="BiteMap"
+              description="Restaurant review application with user authentication and CRUD functionality. Integrated with Google Maps API for geolocation and map features."
+              liveLink="https://jreitz2.github.io/bite-map-d424-capstone/"
+              codeLink="https://github.com/jreitz2/bite-map-d424-capstone/tree/main/bite-map"
+              technologies={["React", "Supabase", "CSS"]}
+            />
+            <ProjectCard
               imageSrc={justChatImg}
               title="Just Chat"
               description="Real-time chat app including Google authentication. Engage in group chat, or direct message with other users."
@@ -170,14 +186,6 @@ function App() {
               liveLink="https://spellscribe.onrender.com/"
               codeLink="https://github.com/jreitz2/spellscribe"
               technologies={["React", "CSS", "Node.js", "MongoDB"]}
-            />
-            <ProjectCard
-              imageSrc={chirperImg}
-              title="Chirper"
-              description="Social media app complete with Google authentication, cloud storage for pictures, and emojis."
-              liveLink="http://chirper-7b053.web.app"
-              codeLink="https://github.com/jreitz2/chirper"
-              technologies={["React", "Firebase", "CSS"]}
             />
           </ul>
         </Section>

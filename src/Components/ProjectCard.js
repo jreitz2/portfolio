@@ -9,6 +9,7 @@ import {
 import { SiFirebase } from "@react-icons/all-files/si/SiFirebase";
 import { SiMongodb } from "@react-icons/all-files/si/SiMongodb";
 import { SiTypescript } from "@react-icons/all-files/si/SiTypescript";
+import { SiPostgresql } from "@react-icons/all-files/si/SiPostgresql";
 
 const ProjectCard = ({
   imageSrc,
@@ -39,6 +40,8 @@ const ProjectCard = ({
         return <SiFirebase />;
       case "MongoDB":
         return <SiMongodb />;
+      case "Supabase":
+        return <SiPostgresql />;
       default:
         return null;
     }
